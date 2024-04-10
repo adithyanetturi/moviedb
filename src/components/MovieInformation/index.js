@@ -18,7 +18,7 @@ class MovieInformation extends Component {
         try {
             const { match } = this.props;
             const { id } = match.params;
-            const apiKey = 'b0a4101d77804f9d31964b747ab032bb';
+            const apiKey = 'f2b245934855956f8a29e666a7b6ceb1';
             const apiUrl = `https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=en-US`;
             const castApi = `https://api.themoviedb.org/3/movie/${id}/credits?api_key=${apiKey}&language=en-US`;
 

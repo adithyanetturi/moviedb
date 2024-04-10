@@ -48,7 +48,7 @@ class Header extends Component {
 
     handleSearch = async () => {
         const { searchQuery } = this.state;
-        const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=b0a4101d77804f9d31964b747ab032bb&language=en-US&query=${searchQuery}&page=1`;
+        const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=f2b245934855956f8a29e666a7b6ceb1&language=en-US&query=${searchQuery}&page=1`;
         const options={
             method:"GET"
         }

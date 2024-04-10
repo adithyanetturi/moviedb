@@ -7,7 +7,7 @@ class TopRated extends Component{
     state={topRatedMoviesList:[]}
 
     async componentDidMount(){
-        const apiUrl="https://api.themoviedb.org/3/movie/top_rated?api_key=b0a4101d77804f9d31964b747ab032bb&language=en-US&page=1"
+        const apiUrl="https://api.themoviedb.org/3/movie/top_rated?api_key=f2b245934855956f8a29e666a7b6ceb1&language=en-US&page=1"
         const options={
             method:"GET"
         }
